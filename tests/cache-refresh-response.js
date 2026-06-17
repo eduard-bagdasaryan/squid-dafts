@@ -91,6 +91,7 @@ export default class MyTest extends Test {
         // TODO: Try all three sensible combinations (by default).
         cfg.memoryCaching(false);
         cfg.diskCaching(true);
+        cfg.custom('debug_options ALL,5');
 
         this._workerListeningAddresses = cfg.workerListeningAddresses();
     }
