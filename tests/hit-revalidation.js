@@ -65,7 +65,7 @@ export default class MyTest extends Test {
         this._workerListeningAddresses = cfg.workerListeningAddresses();
         // TODO: Allow/test collapsed revalidation of non-collapsed hits.
         cfg.collapsedForwarding(Config.sendingOrder() === soTrueCollapsing);
-        cfg.custom('debug_options ALL,1 54,7');
+        cfg.custom('debug_options ALL,5');
     }
 
     static Configurators() {
